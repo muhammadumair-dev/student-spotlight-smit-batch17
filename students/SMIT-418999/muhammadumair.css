@@ -1,0 +1,199 @@
+:root {
+  --primary: #2563eb;     /* Blue */
+  --secondary: #1e40af;   /* Dark Blue */
+  --accent: #3b82f6;      /* Soft Blue */
+  --background: #f8fafc; 
+  --text: #0f172a;        
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+       text-decoration: none;
+        
+    list-style: none;
+    overflow-x: hidden;
+
+}
+.navbar{
+    width: 95%;
+    height: 100px;
+    margin-top: 10px;
+    background-color: var(--text);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-self:center ;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+}
+.logo{
+     height: 90%;width: 25%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+   
+}
+.logo-inner{
+    font: 26px 'Oxanium', sans-serif;
+    color:var(--primary);
+}
+.nav-content{
+
+    height: 90%;width: 60%;
+
+    margin: auto;
+    display: flex;
+
+}
+.nav-content ul{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hero{
+    width: 100%;
+    height: 80vh;
+    margin-top: 30px;
+  
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#About{
+        margin-top: 100px;
+}
+.hero-content{
+    width: 95%;
+    height: 95vh;
+    margin-top: 150px;
+    display: flex;
+
+}
+.owner{
+    
+
+    font: 56px 'Oxanium', sans-serif;
+    color:var(--secondary);
+}
+.title{
+    font-size: 36px;
+    font-weight: 600;
+    width: 50%;
+    height: 80%;
+    color: var(--text);
+
+    margin-bottom: 10px;
+    display: flex;
+ 
+    flex-direction: column;
+      padding-top: 80px;
+       gap: 45px;
+       
+}
+.change{
+    color: #0da0a0;
+}
+.umair-img{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+   
+    justify-content: center;
+}
+.umair-img img{
+    width: 100%;
+    height: 80%;
+
+}
+.btn{
+    
+    display: flex;
+    height: 40px;
+       margin-top: 10px;
+    align-items: center;
+}
+.btn button{
+   width: 30%;
+   background-color: #33f8f8;
+   height: 100%;
+   color: var(--text);
+   font: 20px 'Robboto' , sans-serif;;
+}
+.Skills-sec{
+    height: 80vh;
+   
+}
+.Skills-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 100px;
+}
+.Skills-title h2{
+ font:52px 'Robboto' , sans-serif;
+ color: var(--primary);
+ 
+
+}
+#About{
+    background-color: red;
+    gap: 50px;
+}
+.s-flex{
+    display: flex;
+       font-size: 25px;
+    font-weight: 600;
+    color: #260135;
+}
+.skill-cards{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+}
+.card{
+       width: 25%;
+    height: 80%;
+    background-color: rgb(202, 216, 7);
+}
+.c-imagem{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-image{
+    height: 55%;
+    width: 27%;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.c-image img{
+    height: 100%;
+    width: 100%;
+}
+.card-content{
+    height: 50%;
+    background-color: aqua;
+}
