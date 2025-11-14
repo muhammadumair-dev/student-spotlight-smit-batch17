@@ -17,25 +17,28 @@
 }
 body{
        text-decoration: none;
+     
+
         
     list-style: none;
     overflow-x: hidden;
 
 }
 .navbar{
-    width: 95%;
-    height: 100px;
+    width: 100%;
+    height: 80px;
     margin-top: 10px;
-    background-color: var(--text);
+ 
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-self:center ;
     justify-content: center;
-    border: 1px solid rgba(0, 0, 0, 0.63);
+ 
 }
 .logo{
-     height: 90%;width: 25%;
+     height: 90%;
+     width: 20%;
     display: flex;
 
     align-items: center;
@@ -44,94 +47,176 @@ body{
 }
 .logo-inner{
     font: 26px 'Oxanium', sans-serif;
-    color:var(--primary);
+      color: var(--text);;
 }
 .nav-content{
 
-    height: 90%;width: 60%;
+
+    height: 90%;
+    width: 40%;
 
     margin: auto;
     display: flex;
+   
 
 }
+.message{
+    width: 10%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message-icon a{
+    font-size: 40px;
+    color: var(--text);}
+.message-icon a:hover{
+    transition: 1.2s;
+    color: #02e433;}
 .nav-content ul{
 
     width: 100%;
     display: flex;
+     gap: 25px;
     align-items: center;
-    justify-content: space-between;
 
+
+}
+.nav-content ul li a{
+    color: #727272;
+       font-weight: 600;
+
+
+}
+.nav-content ul li a.ative {
+    color: #551EB0;
+}
+
+.nav-content ul li a:hover{
+    color: #551EB0;
+    
+    transition: 0.1s;
 }
 .hero{
-    width: 100%;
-    height: 80vh;
-    margin-top: 30px;
+    height: 100vh;
   
-    border-radius: 15px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#About{
-        margin-top: 100px;
+    align-items: end;
+  
 }
 .hero-content{
-    width: 95%;
-    height: 95vh;
-    margin-top: 150px;
+    width: 100%;
+    height: 95%;
+ 
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
-}
-.owner{
-    
+   
 
-    font: 56px 'Oxanium', sans-serif;
-    color:var(--secondary);
 }
 .title{
-    font-size: 36px;
-    font-weight: 600;
-    width: 50%;
-    height: 80%;
-    color: var(--text);
 
-    margin-bottom: 10px;
-    display: flex;
- 
-    flex-direction: column;
-      padding-top: 80px;
-       gap: 45px;
-       
-}
-.change{
-    color: #0da0a0;
-}
-.umair-img{
-    width: 50%;
     height: 100%;
-
+    width:45%;
     display: flex;
-   
+    flex-direction: column;
     justify-content: center;
 }
-.umair-img img{
-    width: 100%;
-    height: 80%;
+
+.owner{
+       height: 7%;
+       font: 20px 'Poppins' ,sans-serif;
+       display: flex;
+       align-items: center;
 
 }
-.btn{
-    
-    display: flex;
-    height: 40px;
-       margin-top: 10px;
-    align-items: center;
+.skill-main{
+    width: 70%;
+   
+    font: 75px 'Poppins' ,sans-serif;
+    font-weight: bolder;
+   line-height: 1.0;
+   
+
 }
-.btn button{
-   width: 30%;
-   background-color: #33f8f8;
-   height: 100%;
-   color: var(--text);
-   font: 20px 'Robboto' , sans-serif;;
+.fornt{
+    color: #6D06F6;
+}
+.title-lor{
+       width: 70%;
+       height: 15%;
+      
+       display: flex;
+       align-items: center;
+   
+    color: #727272;
+}
+.btn-flex{
+    display: flex;width: 30%;
+    justify-content: space-between;
+   
+}
+.btn{
+    width: 47%;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background);
+    font: 12px 'Poppins ' ,sans-serif;;
+
+    background-color: #0436ac;
+}
+.umair-img{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* OUTER CIRCLE */
+.upper-circle{
+    height: 60%;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 1s ease;   /* ONLY HERE */
+}
+.upper-circle:hover{
+    border-width: 4px;
+    border-color: gold;
+}
+
+/* INNER CIRCLE */
+.circle-img{
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 1.5s ease;   /* ONLY HERE */
+}
+.circle-img:hover{
+    height: 100%;
+    width: 100%;
+}
+
+/* IMAGE */
+.circle-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 .Skills-sec{
     height: 80vh;
