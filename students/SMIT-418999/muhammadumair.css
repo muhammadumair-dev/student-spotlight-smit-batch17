@@ -215,8 +215,92 @@ body{
 .circle-img img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    
     border-radius: 50%;
+}
+.about{
+  
+        height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+.about-content{
+    width: 90%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.about-title{
+ 
+    height:80px ;
+    
+}
+.about-title h2{
+         width: 70%;
+   
+    font: 75px 'Poppins' ,sans-serif;
+    font-weight: bolder;
+   line-height: 1.0;
+      
+
+}
+.about-lor{
+    display: flex;
+    gap: 15px;
+  
+}
+.pick{
+    width:20px ;
+    height: 100%;
+    background-color:  #6D06F6;
+}
+.a-lor{
+    color: #727272;
+    font: 20px 'Poppins' ,sans-serif;
+}
+.my-stack{
+    display: flex;
+   
+    height: 50%;
+   justify-content: space-between;
+    width: 90%;
+    align-items: end;
+
+}
+.stack{
+
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;    width: 30%;
+
+}
+.stack-skill{
+       
+    height: 80%;
+    border: 1px solid rgba(231, 225, 214, 0.884);
+    width: 100%;
+    background-color: #ffffff;
+ box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+
+    border-radius: 15px;
+    background-image: url(./Assets/chatgpt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.stack-h3{
+        font: 20px 'Robboto' ,sans-serif;
+}
+#stack{
+    width: 67%;
+
 }
 .Skills-sec{
     height: 80vh;
