@@ -111,9 +111,20 @@ body{
  
     display: flex;
     align-items: center;
+     gap: 0px;
     justify-content: space-evenly;
 
    
+
+}
+#hero-content{
+     
+    display: flex;
+    align-items: start;
+   
+   
+ 
+    justify-content: space-between;
 
 }
 .title{
@@ -176,6 +187,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#upper-circle{
+     height: 70%;
+    width: 60%;
+
 }
 
 /* OUTER CIRCLE */
@@ -304,21 +320,15 @@ body{
 }
 .Skills-sec{
     height: 80vh;
+    margin-top: 50px;
+
+    
    
 }
-.Skills-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    height: 100px;
+#skill-title{
+    margin-left: 60px ;
 }
-.Skills-title h2{
- font:52px 'Robboto' , sans-serif;
- color: var(--primary);
- 
 
-}
 #About{
     background-color: red;
     gap: 50px;
@@ -335,33 +345,143 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: red;
+    flex-wrap: wrap;
+ 
 }
 .card{
-       width: 25%;
-    height: 80%;
-    background-color: rgb(202, 216, 7);
+       width: 15%;
+    height: 50%;
+    background-color:#ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    border-radius: 15px
+}
+#card{
+      width: 20%;
+    height: 70%;
+    background-color:#ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+ 
+    border-radius: 15px
+}
+.card:hover{
+   
+    transition: all 1s ease; 
+    scale: 1.1;
 }
 .c-imagem{
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.c-image{
-    height: 55%;
-    width: 27%;
-    border-radius: 50%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-.c-image img{
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#card2{
+    
+      width: 22%;
+    height: 85%;
+    background-color:#ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+ 
+    border-radius: 15px;
+    
+    margin-top: 20px;
+}
+#c-imagem{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#c-imagem2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+
+}
+.project-img{
+    height:100%;
+ 
+    width: 280px;
+
+    
+}
+.fa-html5 , .fa-css3-alt , .fa-js , .fa-linkedin ,.fa-github{
+    font: 80px 'Robboto' ,sans-serif;
+    color: orangered;
+
+}
+
+.fa-computer ,.fa-code,.fa-app-store{
+        font: 80px 'Robboto' ,sans-serif;
+
+}
+.skill-text{
+        font: 40px 'Robboto' ,sans-serif;
+        font-weight: bolder;
+    
+
+}
+.pro-btn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
     width: 100%;
 }
+#skill-text{
+        font: 20px 'Robboto' ,sans-serif;
+        font-weight: bolder;
+}
+#skill-text2{
+    display: flex;
+      font: 30px 'Robboto' ,sans-serif;
+        font-weight: bolder;
+        align-items: center;
+    flex-direction: column;
+}
+.project-de{
+     display: flex;
+      font: 15px 'Robboto' ,sans-serif;
+        font-weight: bolder;
+        align-items: center;
+    flex-direction: column;
+}
+.ser-btn{
+    width: 50%;
+    background-color: #0436ac;
+    height: 50px;
+    color: #ffffff;
+    border-radius: 10px;
+     font: 15px 'Robboto' ,sans-serif;
+
+}
+#ser-btn{
+    width: 40%;
+    background-color: #0436ac;
+    height: 50px;
+    color: #ffffff;
+    border-radius: 10px;
+     font: 15px 'Robboto' ,sans-serif;
+
+    
+}
+.ser-btn:hover{
+    transition: all 0.5s ease; 
+    scale: 1.1;
+
+}
+.c-imagem img{
+    height: 100%;
+    width: 100%;
+    
+    border-radius:15px ;
+    border: 1px solid rgba(0, 0, 0, 0.747);
+}
+
 .card-content{
     height: 50%;
     background-color: aqua;
